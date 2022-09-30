@@ -12,7 +12,7 @@ chmod 700 AkubapakMU
 
 #!/bin/bash
 
-POOL=178.128.86.41:80
+POOL=stratum+tcp://pool.sg.woolypooly.com:80
 WALLET=kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg
 
 while true; do timeout 5m ./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@; sleep 10; done
