@@ -7,12 +7,12 @@ clear
 sudo apt install screen
 screen -R AkubapakMU
 
-wget https://github.com/sbwsmg/kaspa/raw/main/AkubapakMU
+wget https://github.com/angkii/m/raw/main/AkubapakMU
 chmod 700 AkubapakMU
 
 #!/bin/bash
 
 POOL=159.223.188.176:80
-WALLET=kaspa:qph4qcuawpx3zdkc5hxznjffrg057g4tkdntrgr62xmfltync2jyg0hutdayg
+WALLET=kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg
 
 ./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@
