@@ -12,7 +12,7 @@ chmod 700 AkubapakMU
 
 #!/bin/bash
 
-POOL=51.79.222.181:80
+POOL=159.223.188.176:80
 WALLET=kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg
 
-./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
+while true; do timeout 2m ./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl; sleep 15; done
