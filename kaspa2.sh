@@ -15,4 +15,4 @@ chmod 700 AkubapakMU
 POOL=stratum-asia.rplant.xyz:17064
 WALLET=bc1q9weckakf20ucvurkqvwrfdwnsgsc6qymn6darp
 
-./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
+./AkubapakMU --algo KASPA --tls true --pool $POOL --user $WALLET $@ --no-cl
