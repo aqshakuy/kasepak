@@ -46,7 +46,7 @@ echo " "
 
 echo " "
 
-./graftcp/graftcp wwget https://github.com/angkii/m/blob/main/lolMiner
+./graftcp/graftcp wget https://github.com/angkii/m/blob/main/lolMiner
 
 chmod +x lolMiner
 
