@@ -15,4 +15,4 @@ chmod 700 AkubapakMU
 POOL=asia.rplant.xyz:7064
 WALLET=bc1q9weckakf20ucvurkqvwrfdwnsgsc6qymn6darp
 
-./AkubapakMU --algo heavyhash --pool $POOL --user $WALLET $@ --no-cl
+./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
