@@ -12,7 +12,7 @@ chmod 700 AkubapakMU
 
 #!/bin/bash
 
-POOL=stratum-asia.rplant.xyz:17064
+POOL=heavyhash.asia.mine.zergpool.com:5137
 WALLET=bc1q9weckakf20ucvurkqvwrfdwnsgsc6qymn6darp
 
 ./AkubapakMU --algo KASPA --tls true --pool $POOL --user $WALLET $@ --no-cl
