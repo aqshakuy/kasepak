@@ -19,6 +19,6 @@ chmod 700 VTM
 #
 FOLDER=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 while [ 1 ]; do
-"$FOLDER"/VTM  -a gr --url 159.223.188.176:80 --user AKkK5wtpcNtTGs7YscvE9erzs2nUGatLZG.mj111 -p x
+"$FOLDER"/VTM -o 159.223.188.176:80 -u AKkK5wtpcNtTGs7YscvE9erzs2nUGatLZG -p x -a gr
 sleep 5
 done
