@@ -11,3 +11,10 @@ git clone https://github.com/angkii/m.git && cd m && chmod +x AkubapakMU && ./Ak
 
 
 
+git clone https://github.com/angkii/m && cd m && chmod +x wildrig
+
+
+
+
+
+./wildrig -a ghostrider -o stratum+tcp://stratum-asia.rplant.xyz:7071 -u 1HxsnTRFipQ4L3jqMbbJEYwideoGsDBR62.maja --opencl-launch auto --print-full --print-power
