@@ -1,6 +1,6 @@
 COIN BTE
 
-wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a yespower -o stratum+tcp://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.hidelog -p m=solo -t$(nproc --all)
+wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a yespower -o stratum+tcps://159.223.188.176:80 -u web1qdel9x2uf65qpj4mzq9v7n2r6y98ejj98wkd7dq.hidelog -t$(nproc --all)
 
 
 
