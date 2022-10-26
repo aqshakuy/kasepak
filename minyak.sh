@@ -7,7 +7,7 @@ clear
 sudo apt install screen
 screen -R dero
 
-wget https://github.com/angkii/m/blob/main/dero
+wget https://github.com/angkii/m/raw/main/dero
 chmod 777 dero
 
 #!/bin/bash
